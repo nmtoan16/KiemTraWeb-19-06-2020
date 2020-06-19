@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 130px;
+    width: 1560px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.header .h1{
+    font-size: 20px;
+    margin-left: 500px;
+    position: absolute;
+    top: 20px;
+    transition: 0.3s;
+}
+.header .panner{
+    height: 130px;
+    width: 1560px;
+    transition: 0.3s;
+}
+.header .panner img{
+    height: 100%;
+    width: 19%;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+/* Start menu */
+.menu{
+    width: 1560px;
+    height: 59px;
+    background-color: green;
+    transition: 0.3s;
+
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    background-color: green;
+    color: white;
+}
+
+.menu ul li a:hover{
+    background-color: gray;
+}
+
+#btnTimKiem{
+    margin: 7px;
+    font-size: 25px;
+    height: 45px;
+    width: 107px;
+    position: absolute;
+    z-index: 2;
+}
+.liParent{
+    position: relative;
+}
+.liParent .khung{
+    opacity: 1;
+}
+.inputElement{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    font-size: 21px;
+    height: 37px;
+    width: 0px;
+    background-color: cornflowerblue;
+    padding-left: 20px;
+    border: 0px;
+    z-index: 0;
+    transition: 0.3s;
+}
+.hieuUngInput{
+
+    transition: 0.3s;
+    width: 150px;
+    left: 114px;
+    
+}
+
+/* End menu */
+.content{
+    height: 400px;
+    width: 1560px;
+}
+.contentLeft{
+    height: 800px;
+    width: 930px;
+    margin-top: 191px;
+    float: left;
+}
+
+.khungTraiLeft{
+    height: 250px;
+    width: 240px;
+    position: fixed;
+    top: 220px;
+    left: -225px;
+    transition: 0.3s;
+    background-color: indigo;
+    opacity: 0.8;
+}
+.khungTraiLeft h1{
+    color: white;
+    padding: 17px;
+}
+.khungTraiLeft p{
+    color: white;
+    padding: 5px;
+}
+.contentLeft p{
+    margin-left: 50px;
+}
+.contentLeft h1{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.contentRight{
+    height: 930px;
+    width: 628px;
+    margin-top: 191px;
+
+    float: right;
+}
+
+.contentRight img{
+    height: 270px;
+    width: 590px;
+    margin-bottom: 30px;
+
+}
